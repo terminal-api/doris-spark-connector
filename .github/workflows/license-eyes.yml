@@ -28,8 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout ${{ github.ref }} ( ${{ github.sha }} )"
-        uses: actions/checkout@v3
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3.7.0
       - name: Check License
-        uses: apache/skywalking-eyes@v0.2.0
+        uses: apache/skywalking-eyes@49d536241d6fe8f92400702b08710514dc298cd4 # v0.2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
