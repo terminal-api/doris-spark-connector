@@ -399,7 +399,9 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-shade-plugin</artifactId>
-                    <version>3.2.1</version>
+                    <!-- 3.6.0 bundles an ASM that can process Java 17 multi-release classes, e.g.
+                         jackson-core 2.18.x ships META-INF/versions/17 entries (major version 61). -->
+                    <version>3.6.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
