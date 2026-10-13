@@ -34,7 +34,7 @@ under the License.
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <scala.major.version>2.12</scala.major.version>
         <scala.version>2.12.17</scala.version>
-        <spark.version>3.4.2</spark.version>
+        <spark.version>3.5.8</spark.version>
     </properties>
 
     <dependencies>
