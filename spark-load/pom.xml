@@ -41,7 +41,7 @@
         <commons-codec.version>1.13</commons-codec.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <hadoop.version>3.3.4</hadoop.version>
-        <netty-all.version>4.1.104.Final</netty-all.version>
+        <netty-all.version>4.1.136.Final</netty-all.version>
         <parquet.version>1.13.1</parquet.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <kryo.version>4.0.2</kryo.version>
